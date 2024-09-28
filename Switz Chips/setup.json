@@ -1,0 +1,39 @@
+{
+    "setup": {
+        "tiles": {
+            "number": [
+                {"value": 1, "frequency": 8},
+                {"value": 2, "frequency": 10},
+                {"value": 3, "frequency": 8},
+                {"value": 4, "frequency": 3},
+                {"value": 5, "frequency": 2},
+                {"value": 6, "frequency": 4},
+                {"value": 7, "frequency": 2},
+                {"value": 8, "frequency": 1},
+                {"value": 9, "frequency": 5},
+                {"value": 10, "frequency": 7},
+                {"value": 11, "frequency": 7},
+                {"value": 12, "frequency": 13},
+                {"value": 13, "frequency": 13},
+                {"value": 14, "frequency": 13},
+                {"value": 15, "frequency": 13},
+                {"value": 16, "frequency": 13},
+                {"value": 17, "frequency": 13},
+                {"value": 18, "frequency": 13},
+                {"value": 19, "frequency": 13},
+                {"value": 20, "frequency": 10}
+            ],
+
+            "operator": [
+                {"value": "+", "frequency": 10},
+                {"value": "-", "frequency": 9},
+                {"value": "*", "frequency": 20},
+                {"value": "/", "frequency": 10}
+            ],
+
+            "blank": [
+                {"value": "", "frequency": 10}
+            ]
+        }
+    }
+}

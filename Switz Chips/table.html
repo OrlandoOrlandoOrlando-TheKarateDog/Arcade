@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Switz Chips</title>
+
+        <script type="module" src="./game.js" defer></script>
+        <link rel="stylesheet" href="../style.css">
+        <style>
+            :root {
+                --tile-size: 40px;
+            }
+
+            section {
+                text-align: center;
+            }
+
+            h1 {
+                margin: var(--space) auto 0;
+            }
+
+            #board {
+                margin: var(--space) auto 0;
+
+                box-sizing: content-box;
+
+                border: thick outset burlywood;
+
+                min-width: calc(15 * var(--tile-size));
+                aspect-ratio: 1 / 1;
+
+                box-shadow: 0px 0px 10px 4px lightgray;
+
+                background: repeating-radial-gradient(burlywood 20%, burlywood, rgb(122, 59, 11) 30%);
+            }
+
+            #rack {
+                margin: var(--space) auto 0;
+
+                box-sizing: content-box;
+
+                border-bottom: medium outset burlywood;
+
+                width: calc(7 * var(--tile-size));
+                height: var(--tile-size);
+
+                box-shadow: 0px 0px 10px 4px lightgray;
+
+                background-color: burlywood;
+            }
+
+            button {
+                margin: var(--small-space) auto 0;
+                padding: 0 1ch 0;
+
+                font-size: large;
+            }
+            
+            #end-turn {
+                border: 2px solid rgb(181, 95, 95);
+                border-radius: 30px;
+                background-color: lightcoral;
+            }
+
+            #redraw {
+                border: 2px solid rgb(197, 197, 215);
+                border-radius: 30px;
+                background-color: lavender;
+            }
+
+            #forfeit {
+                border: 2px solid rgb(192, 138, 147);
+                border-radius: 30px;
+                background-color: lightpink;
+            }
+
+        </style>
+    </head>
+    
+    <body>
+        <section>
+            <h1>Switz Chips</h1>
+
+            <table id="board"></table>
+            <div id="rack"></div>
+
+            <form>
+                <button id="end-turn">End Turn</button>
+                <button id="redraw">Redraw</button>
+                <button id="forfeit">Forfeit</button>
+            </form>
+
+        </section>
+
+    </body>
+
+</html>
