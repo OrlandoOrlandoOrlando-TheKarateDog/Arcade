@@ -1,6 +1,6 @@
 {
     "setup": {
-        "tiles": {
+        "tilePool": {
             "number": [
                 {"value": 1, "frequency": 8},
                 {"value": 2, "frequency": 10},
