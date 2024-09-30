@@ -1,0 +1,31 @@
+{
+    "gravity": 1,
+
+    "backBox": {
+        "width": 200,
+        "height": 160
+    },
+
+    "playField": {
+        "width": 200,
+        "height": 350,
+        "slope": 1
+    },
+
+    "pinball": {
+        "size": 1,
+        "weight": 1
+    },
+
+    "flipper": [
+        { "x": 100, "y": 100 }
+    ],
+
+    "popBumper": [
+        { "x": 40, "y": 40, "strength": 100 }
+    ],
+    
+    "slingShot": [
+        { "x": 20, "y": 10 }
+    ]
+}
